@@ -1,0 +1,48 @@
+{
+	"nom" : "Nicoletti",
+	"prenom" : "Sébastien",
+	"annee" : "16/08/1994",
+	"tel" : "06.59.61.61.87",
+	"adresse" : "24 Avenue de Nice - 06800 Cagnes-sur-Mer - Les fleurs marines",
+	"mail": "s.nico@live.fr",
+	"competence" : {
+		"Developpement": 
+			{
+				"Java/JEE" : "Projet langue des signes, Island, Labyvint",
+				"C/C++" : "Application sur un correcteur orthographique."
+			}
+		, 
+		"Web" : 
+			{
+				"Projet vitrine" : "AngularJs/CSS",
+				"Projet Handisport" : "Jquery/PHP (conception AJAX)",
+				"E-Commerce" : "Jquery/PHP"
+			}
+		,
+		"Base de donnée" :{"sql":"Utilisation de MySql"}
+	},
+	"formation" : [
+		{
+			"lieu" : "Polytech Nice Sophia",
+			"annee": "2014/2015",
+			"diplome" : "3eme Année cycle ingénieure"
+		},
+		{
+			"lieu" : "IUT Nice Cote d'azur",
+			"annee": "2012/2014",
+			"diplome" : "DUT informatique"
+		},
+		{
+			"lieu" : "Lycée Léonard de Vinci Antibes",
+			"annee": "2011/2012",
+			"diplome" : "BAC S options Maths et Science Ingénieure"
+		}
+	],
+	"experience" : [
+		{
+			"lieu":"Sogeti Hight Tech",
+			"date":"Période de 10 semaines.",
+			"resume": "Le projet porté sur la correction et l'évolution d'un outil RH en J2EE. (JPA-EJB-JSF)"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+<h1>Mon profil...</h1>
+
+<div class="cadre">
+	<ul>
+		<li><h3>Année:</h3> {{data.annee}}</li>
+		<li><h3>Adresse:</h3> {{data.adresse}}</li>
+		<li><h3>Tel:</h3>{{data.tel}}</li>
+		<li><h3>Mail:</h3> {{data.mail}}</li>
+	</ul>
+</div>
+
+<div class="cadre">
+	<div ng-repeat="(type, typeDesc) in data.competence">
+		<h3>{{type}}</h3>
+		<div ng-repeat="(comp, desc) in typeDesc">
+			<h4 class="souligner" >{{comp}}:</h4> {{desc}}
+		</div>
+	</div>
+</div>

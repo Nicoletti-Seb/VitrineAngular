@@ -1,0 +1,15 @@
+<h1>Me Contacter...</h1>
+
+<div class="cadre center">
+	<form ng-submit="sendMail()">
+		<h4><b>Nom:</b></h4>
+		<input type="text" ng-model="email.nom" required/>
+		<h4><b>E-Mail:</b></h4>
+		<input ng-model="email.email" type="email" required/>
+		<h4><b>Sujet:</b></h4>
+		<input type="text" ng-model="email.sujet" required/>
+		<h4><b>Message:</b></h4>
+		<textarea id ="message_mail" ng-model="email.message" ></textarea>
+		<button name="Envoyer" >Envoyer</button>
+	</form>
+</div>
